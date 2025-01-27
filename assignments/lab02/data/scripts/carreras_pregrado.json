@@ -1,0 +1,602 @@
+[
+  {
+    "id": 39,
+    "nombre": "Administración",
+    "url_nombre": "administracion",
+    "descripcion": "La Escuela Profesional de Administración forma profesionales competitivos, emprendedores y con valores sólidos. Desarrolla competencias integrales en los estudiantes para que puedan trabajar y liderar de manera moderna, eficiente y eficaz en empresas, instituciones públicas y organismos internacionales. "
+  },
+  {
+    "id": 74,
+    "nombre": "Administración de la Gastronomía",
+    "url_nombre": "administracion-de-la-gastronomia",
+    "descripcion": "En un mundo donde la gastronomía se ha convertido en un componente vital de la identidad nacional y un motor económico global, la necesidad de profesionales capacitados en la gestión gastronómica es más evidente que nunca. En la Universidad Nacional Mayor de San Marcos, la Facultad de Ciencias Administrativas ha asumido este desafío al crear la Escuela Profesional de Administración de la Gastronomía. Nuestra misión es clara: formar líderes empresariales en el ámbito gastronómico, capaces de impulsar la industria hacia nuevos horizontes de excelencia y sostenibilidad. Nos destacamos por ofrecer una educación integral que combina conocimientos técnicos con valores éticos y responsabilidad social."
+  },
+  {
+    "id": 40,
+    "nombre": "Administración de Negocios Internacionales",
+    "url_nombre": "administracion-de-negocios-internacionales",
+    "descripcion": "La Escuela Profesional de Administración de Negocios Internacionales tiene la misión de formar profesionales de Negocios Internacionales del más alto nivel académico y humanístico, capaz de desempeñarse en las empresas y organizaciones que se desarrollan en los mercados y en los negocios internacionales, así como en la investigación, consultoría y docencia."
+  },
+  {
+    "id": 41,
+    "nombre": "Administración de Turismo",
+    "url_nombre": "administracion-de-turismo",
+    "descripcion": "La Escuela Profesional de Administración de Turismo tiene como misión generar y difundir conocimiento científico tecnológico, y humanístico, formando profesionales con valores, respetuosos de la diversidad cultural y promotores de la identidad nacional basada en una cultura de calidad, desarrollando investigaciones en turismo con responsabilidad social para contribuir en el desarrollo sostenible del país y la sociedad."
+  },
+  {
+    "id": 75,
+    "nombre": "Administración Marítima y Portuaria",
+    "url_nombre": "administracion-maritima-y-portuaria",
+    "descripcion": "La fundamentación de la necesidad de la Escuela Profesional de Administración Marítima y Portuaria está dada como consecuencia de los propios efectos de la globalización, al haberse convertido en una fuerza que beneficia el desarrollo de todos los países, tenemos la imperiosa necesidad de desarrollar las oportunidades que se deriven de su aplicación, principalmente en las actividades relacionadas con la consolidación de los negocios a través del comercio internacional marítimo."
+  },
+  {
+    "id": 50,
+    "nombre": "Antropología",
+    "url_nombre": "antropologia",
+    "descripcion": "La Escuela Profesional de Antropología tiene como objetivo formar investigadores y profesionales en con elevada calidad académica, orientación interdisciplinaria, y con vistas a su desempeño en ámbitos universitarios, centros de investigación, instituciones de gestión pública y privada, así como en organismos de desarrollo nacionales e internacionales. Asimismo, busca capacitar especialistas para la investigación antropológica de la realidad del Perú y América Latina desde una perspectiva intercultural, histórica y social."
+  },
+  {
+    "id": 51,
+    "nombre": "Arqueología",
+    "url_nombre": "arqueologia",
+    "descripcion": "La Escuela Profesional de Arqueología forma profesionales en el conocimiento de la teoría, los métodos y técnicas de la Arqueología, preparando a los estudiantes para la investigación del proceso Prehispánico Andino y Amazónico, con conocimiento de las normas legales y compromiso ético con la defensa y valoración del patrimonio cultural de la Nación."
+  },
+  {
+    "id": 56,
+    "nombre": "Arte",
+    "url_nombre": "arte",
+    "descripcion": "La Escuela Profesional de Arte forma especialistas aptos para realizar estudios e investigaciones desde el punto de vista teórico, estético e histórico-artístico con especial énfasis en las expresiones artísticas peruanas. El profesional de esta especialidad debe tener interés por las manifestaciones artísticas desde la perspectiva histórica, poseer capacidad de observación, análisis, así como aptitud reflexiva y marcado sentido estético."
+  },
+  {
+    "id": 42,
+    "nombre": "Auditoría Empresarial y del Sector Público",
+    "url_nombre": "auditoria-empresarial-y-del-sector-publico",
+    "descripcion": "La Escuela Profesional de Auditoria Empresarial y del Sector Público tiene como objetivo brindar un servicio educativo de alto nivel académico, formando profesionales contadores públicos que contribuyan desarrollo del país, mediante la aplicación del conocimiento científico, técnico y humanístico en las actividades relacionadas con la gestión contable, financiera, tributaria y auditora en las entidades nacionales e internacionales."
+  },
+  {
+    "id": 57,
+    "nombre": "Bibliotecología y Ciencias de la Información",
+    "url_nombre": "bibliotecologia-y-ciencias-de-la-informacion",
+    "descripcion": "La Escuela Profesional de Bibliotecología y Ciencias de la Información forma profesionales bibliotecólogos altamente calificados, con valores éticos y conocimientos científicos y tecnológicos en el acopio, procesamiento, análisis, acceso, difusión y gestión de la información, que contribuyan al mejoramiento permanente de nuestra sociedad."
+  },
+  {
+    "id": 7,
+    "nombre": "Ciencia de los Alimentos",
+    "url_nombre": "ciencia-de-los-alimentos",
+    "descripcion": "La Escuela Profesional de Ciencia de los Alimentos forma profesionales capacitados científica, tecnológica, multidisciplinariamente, con desarrollo cognitivo y humanístico, ética, sensibilidad social y alto grado de creatividad, innovación, liderazgo, entre otras competencias."
+  },
+  {
+    "id": 49,
+    "nombre": "Ciencia Política",
+    "url_nombre": "ciencia-politica",
+    "descripcion": "La Escuela Profesional de Ciencia Política tiene como objetivo general formar profesionales capaces de interpretar, explicar, investigar y producir trabajos sobre las relaciones de poder y la política, entre la autoridad y los individuos, los grupos sociales y las organizaciones, las estructuras política, procedimientos y procesos a través de los cuales se llega a las decisiones políticas y se desarrollan las interacciones entre los diferentes sistemas políticos."
+  },
+  {
+    "id": 32,
+    "nombre": "Ciencias Biológicas",
+    "url_nombre": "ciencias-biologicas",
+    "descripcion": "La Escuela Profesional de Ciencias Biológicas es una comunidad académica dedicada a la formación integral de académicos y profesionales calificados, líderes en las áreas de Botánica, Hidrobiología y Pesquería y Zoología; y generadora de conocimiento que contribuye al desarrollo sostenible del país y al impulso de la ciencia y la tecnología."
+  },
+  {
+    "id": 37,
+    "nombre": "Computación Científica",
+    "url_nombre": "computacion-cientifica",
+    "descripcion": "La Escuela Profesional de Computación Científica forma profesionales con visión global, perfil internacional y capacidad emprendedora que dominan las matemáticas, las ciencias de la computación, los modelos matemáticos, la infraestructura y la gestión de las tecnologías de la información, capaces de producir soluciones y mejoras en los ámbitos tecnológicos, empresarial y científico de las organizaciones, que permitan a las empresas e instituciones su mejor desenvolvimiento."
+  },
+  {
+    "id": 59,
+    "nombre": "Comunicación Social",
+    "url_nombre": "comunicacion-social",
+    "descripcion": "Caracterizada por la formación de profesionales con alta capacidad de síntesis, crítica y análisis de los fenómenos sociales y comunicacionales; la Escuela de Comunicación Social transmite a sus estudiantes el valor de la investigación como uno de los principales motores para el ejercicio de su actividad laboral. Los alumnos de nuestra escuela eligen entre las especialidades: Periodismo, Comunicación Organizacional y Producción Audiovisual."
+  },
+  {
+    "id": 58,
+    "nombre": "Conservación y Restauración",
+    "url_nombre": "conservacion-y-restauracion",
+    "descripcion": "La Escuela Profesional de Conservación y Restauración es la primera con rango universitario a nivel nacional. Forma especialistas dedicados a la proyección y ejecución de tratamientos para la preservación de los bienes integrantes del patrimonio cultural. El currículo vigente ha sido diseñado tomando en cuenta las actuales exigencias de la disciplina para proporcionar a los futuros conservadores y restauradores una sólida formación."
+  },
+  {
+    "id": 43,
+    "nombre": "Contabilidad",
+    "url_nombre": "contabilidad",
+    "descripcion": "La Escuela Profesional de Contabilidad está dedicada a la enseñanza integral, especializada en investigación, innovación, contabilidad y finanzas empresariales para la emisión de reportes financieros, toma de decisiones y control de la gestión comprometidos con el desarrollo económico, financiero y social del país y de las entidades."
+  },
+  {
+    "id": 63,
+    "nombre": "Danza",
+    "url_nombre": "danza",
+    "descripcion": "La Escuela Profesional de Danza forma profesionales preparados con las mejores cualidades técnico-artísticas para enfrentar los retos de un bailarín y/o coreógrafo profesional con una sólida formación teórica en las humanidades, lo que les permitirá escribir, comentar, hacer crítica e investigar sobre la danza, sus características histórico-artísticas y su proyección en el ámbito nacional, así como desenvolverse en la gestión cultural."
+  },
+  {
+    "id": 48,
+    "nombre": "Derecho",
+    "url_nombre": "derecho",
+    "descripcion": "La Escuela Profesional de Derecho tiene como objetivo formar al alumno capacitándolo para el ejercicio en los diversos campos de aplicación del derecho, provistos de las competencias necesarias para responder a las dinámicas de transformación de las leyes y sus reglamentos, a las demandas regionales y nacionales, para la investigación jurídica, para el manejo de la oralidad en el sistema de justicia, para el manejo de los medios alternativos de solución de controversias con el fin directo y principal que se comprometen en la promoción de la justicia social."
+  },
+  {
+    "id": 45,
+    "nombre": "Economía",
+    "url_nombre": "economia",
+    "descripcion": "La Escuela Profesional de Economía tiene como objetivo fundamental formar profesionales con rigurosos conocimientos teóricos en Ciencias Económicas, así como en economía aplicada, empleando los métodos cuantitativos e instrumentales con reconocidos valores y comprometidos con plantear soluciones a los problemas económicos y financieros para el bienestar de la sociedad."
+  },
+  {
+    "id": 46,
+    "nombre": "Economía Internacional",
+    "url_nombre": "economia-internacional",
+    "descripcion": "La Escuela Profesional de Economía Internacional tiene como objetivo general el formar profesionales con sólidos conocimientos teóricos de la Ciencia Económica y la Economía Aplicada, empleando los métodos cuantitativos instrumentales, con reconocidos valores y comprometidos con plantear soluciones a los problemas económicos y financieros para el bienestar de la sociedad."
+  },
+  {
+    "id": 47,
+    "nombre": "Economía Pública",
+    "url_nombre": "economia-publica",
+    "descripcion": "La Escuela Profesional de Economía Pública tiene la misión de ser una comunidad académica integrada que se dedica a la formación de profesionales y académicos altamente calificados que destacan en la especialidad de Economía Pública y que es generadora de investigaciones innovadoras sobre la realidad económica con énfasis en el rol del sector público que contribuye con el desarrollo sostenible y con el bienestar del país."
+  },
+  {
+    "id": 64,
+    "nombre": "Educación",
+    "url_nombre": "educacion",
+    "descripcion": "La Escuela Profesional de Educación tiene como objetivo formar sólidamente a los profesionales en Educación en el campo de la práctica docente en los niveles de inicial, primaria y secundaria. Forma profesionales reconocidos por su alta competencia profesional y calidad humana, por su liderazgo académico y de servicio. Desarrolla en el docente el espíritu investigativo, el diseño curricular y la gestión educativa para fortalecer la educación."
+  },
+  {
+    "id": 65,
+    "nombre": "Educación Física",
+    "url_nombre": "educacion-fisica",
+    "descripcion": "La Escuela Profesional de Educación Física tiene como misión ser una comunidad universitaria dedicada a la formación, actualización y especialización de educadores que busca la elevación permanente de la calidad del servicio educativo, constituida por docentes comprometidos con el cambio social a favor de la libertad de pensamiento y la justicia social."
+  },
+  {
+    "id": 1,
+    "nombre": "Enfermería",
+    "url_nombre": "enfermeria",
+    "descripcion": "La Escuela Profesional de Enfermería tiene como objetivo formar profesionales de enfermería que respondan a las demandas de la salud de la población y a las transformaciones sociales de un mundo globalizado en un proceso de aprendizaje centrado en la persona y su contexto, para brindar cuidado de enfermería de calidad en el marco de las políticas de salud, investigación y responsabilidad social. "
+  },
+  {
+    "id": 38,
+    "nombre": "Estadística",
+    "url_nombre": "estadistica",
+    "descripcion": "La Escuela Profesional de Estadística forma profesionales capaces de identificar y formular problemas recolectando, resumiendo y clasificando datos. Brinda conocimiento para analizar e interpretar el comportamiento de los datos con respecto a una o más características de interés de la población bajo estudio. Con una base científica en todas sus etapas, y con apoyo de herramientas matemáticas y computacionales el estadista modela y analiza datos para ayudar a otros profesionales a tomar decisiones informadas. "
+  },
+  {
+    "id": 6,
+    "nombre": "Farmacia y Bioquímica",
+    "url_nombre": "farmacia-y-bioquimica",
+    "descripcion": "La Escuela Profesional de Farmacia y Bioquímica forma profesionales químicos farmacéuticos competentes y comprometidos con el desarrollo de una sociedad saludable, justa y sostenible. Por ello, gestiona el diseño y actualización curricular de la carrera y dirige su aplicación de manera coordinada, buscando satisfacer las necesidades y expectativas de estudiantes y grupos de interés."
+  },
+  {
+    "id": 60,
+    "nombre": "Filosofía",
+    "url_nombre": "filosofia",
+    "descripcion": "La Escuela Profesional de Filosofía forma profesionales capacitados en el conocimiento filosófico, en sus métodos y categorías, lo que les permite un análisis reflexivo sobre otros campos de la realidad y del saber. El postulante a la carrera debe mostrar interés por los grandes problemas humanos, interés por el pensamiento racional, su función orientadora de la vida, capacidad analítica de síntesis y vocación por el diálogo argumentativo."
+  },
+  {
+    "id": 30,
+    "nombre": "Física",
+    "url_nombre": "fisica",
+    "descripcion": "La Escuela Profesional de Física tiene como finalidad que el estudiante obtenga una formación general orientada para el ejercicio de actividades de carácter profesional, con capacidad para aplicar las destrezas adquiridas, tanto en la docencia como en la investigación de la Física, así como sus aplicaciones en la industria, empresa y administración. Los profesionales están preparados para el análisis y la modelización de situaciones complejas y están capacitados para resolver problemas diversos con el empleo de técnicas matemáticas avanzadas y su implementación utilizando tecnologías de información."
+  },
+  {
+    "id": 33,
+    "nombre": "Genética y Biotecnología",
+    "url_nombre": "genetica-y-biotecnologia",
+    "descripcion": "La Escuela Profesional de Genética y Biotecnología ofrece una formación integral e interdisciplinaria con la finalidad de formar profesionales líderes, críticos y proactivos con la suficiente base científica para desenvolverse tanto en la empresa pública y privada, así como desarrollar investigación básica o aplicada en los campos de la salud, genómica, biotecnología, la industria farmacéutica, la genética forense, la mejora genética agropecuaria, la industria alimentaria, la minería, entre otros."
+  },
+  {
+    "id": 52,
+    "nombre": "Geografía",
+    "url_nombre": "geografia",
+    "descripcion": "La Escuela Profesional de Geografía tiene como objetivo general formar profesionales e investigadores en geografía, con elevada calidad académica y con gran sentido de responsabilidad social, ética y moral frente a los problemas del país, con vistas a su desempeño en ámbitos universitarios, centros de investigación, en sectores productivos y administrativos del país, públicos y privados, así como en organismos de desarrollo nacionales e internacionales."
+  },
+  {
+    "id": 44,
+    "nombre": "Gestión Tributaria",
+    "url_nombre": "gestion-tributaria",
+    "descripcion": "La Escuela Profesional de Gestión Tributaria tiene como objetivo brindar un servicio educativo de alto nivel académico, formando profesionales que contribuyan desarrollo del país, mediante la aplicación del conocimiento científico, técnico y humanístico en las actividades relacionadas con la gestión contable, financiero, tributario y auditora en entidades nacionales e internacionales."
+  },
+  {
+    "id": 53,
+    "nombre": "Historia",
+    "url_nombre": "historia",
+    "descripcion": "La Escuela Profesional de Historia tiene el compromiso de brindar a los estudiantes una sólida formación académica y de investigación; y afirmar la identidad nacional, respetando la diversidad cultural, para contribuir al desarrollo sostenible del país y la sociedad."
+  },
+  {
+    "id": 24,
+    "nombre": "Ingeniería Agroindustrial",
+    "url_nombre": "ingenieria-agroindustrial",
+    "descripcion": "La Escuela Profesional de Ingeniería Agroindustrial tiene como propósito cooperar en el desarrollo agroindustrial nacional a través de la formación integral de profesionales competentes con responsabilidad social involucrados a investigación científica para contribuir al desarrollo del país."
+  },
+  {
+    "id": 21,
+    "nombre": "Ingeniería Ambiental",
+    "url_nombre": "ingenieria-ambiental",
+    "descripcion": "La Escuela Profesional de Ingeniería Ambiental tiene como objetivo principal formar profesionales para desarrollarse en las áreas de: Tecnologías para el control de la contaminación, salud y saneamiento ambiental, gestión integrada en calidad, seguridad ocupacional y medio ambiente, así como en cambio climático y desarrollo sostenible."
+  },
+  {
+    "id": 12,
+    "nombre": "Ingeniería Biomédica",
+    "url_nombre": "ingenieria-biomedica",
+    "descripcion": "La Escuela Profesional de Ingeniería Biomédica es el resultado de la aplicación de los principios y técnicas de la ingeniería al campo de la medicina. Se dedica fundamentalmente al diseño y construcción de productos sanitarios y tecnologías sanitarias tales como los equipos médicos, las prótesis, dispositivos médicos, dispositivos de diagnóstico (imagenología médica) y de terapia. También interviene en la gestión o administración de los recursos técnicos ligados a un sistema de hospitales. "
+  },
+  {
+    "id": 18,
+    "nombre": "Ingeniería Civil",
+    "url_nombre": "ingenieria-civil",
+    "descripcion": "La Escuela Profesional de Ingeniería Civil es la disciplina de la ingeniería profesional que emplea conocimientos de cálculo, mecánica hidráulica u física para encargarse del diseño, construcción y mantenimiento de las infraestructuras emplazadas en el entorno, incluyendo carreteras, ferrocarriles, puentes, canales, presas, puertos, aeropuertos, diques, ferrocarriles, puentes, canales, presas, puertos, aeropuertos, diques y otras construcciones relacionadas."
+  },
+  {
+    "id": 20,
+    "nombre": "Ingeniería de Minas",
+    "url_nombre": "ingenieria-de-minas",
+    "descripcion": "La Escuela Profesional de Ingeniería de Minas forma profesionales en las áreas de tecnología, administración, con cursos teórico-práctico, capacitado para crear, diseñar y dirigir los proyectos mineros y las operaciones de extracción de minerales, con orientación económica, gestionando y garantizando la integridad física de las personas, el medio ambiente y los bienes de la empresa."
+  },
+  {
+    "id": 27,
+    "nombre": "Ingeniería de Seguridad y Salud en el Trabajo",
+    "url_nombre": "ingenieria-de-seguridad-y-salud-en-el-trabajo",
+    "descripcion": "La Escuela Profesional de Ingeniería de Seguridad y Salud en el Trabajo es una rama de la Ingeniería que se encarga de estudiar, analizar, evaluar, organizar, dirigir e inspeccionar en ambientes laborales, todo lo inherente con la seguridad y salud en el trabajo a través del diseño y la aplicación de medidas tecnológicas y de gestión."
+  },
+  {
+    "id": 28,
+    "nombre": "Ingeniería de Sistemas",
+    "url_nombre": "ingenieria-de-sistemas",
+    "descripcion": "La Escuela Profesional de Ingeniería de Sistemas tiene como objetivo formar profesionales altamente calificados en soluciones integrales de tecnologías e información, comunicaciones y sistemas de información, capacitados en un pensamiento crítico-analítico basado en estándares internacionales que garanticen términos de calidad competitivos y su incorporación en el mercado internacional."
+  },
+  {
+    "id": 29,
+    "nombre": "Ingeniería de Software",
+    "url_nombre": "ingenieria-de-software",
+    "descripcion": "La Escuela Profesional de Ingeniería de Software tiene como objetivo formar profesionales altamente calificados en desarrollar productos de software de manera eficiente y efectiva, considerando estándares internacionales de calidad que garanticen el desempeño de calidad y competitivos para el graduado, y facilitar su incorporación en el mercado internacional de la industria del software."
+  },
+  {
+    "id": 15,
+    "nombre": "Ingeniería de Telecomunicaciones",
+    "url_nombre": "ingenieria-de-telecomunicaciones",
+    "descripcion": "La Escuela Profesional de Ingeniería de Telecomunicaciones es una rama de la ingeniería que resuelve problemas de transmisión y recepción de señales e interconexión de redes. Es la disciplina de aplicación de la telecomunicación, término que se refiere a la comunicación a distancia, generalmente a través de la propagación de ondas electromagnéticas y ópticas."
+  },
+  {
+    "id": 14,
+    "nombre": "Ingeniería Eléctrica",
+    "url_nombre": "ingenieria-electrica",
+    "descripcion": "La Escuela Profesional de Ingeniería  Eléctrica se ocupa del estudio y la aplicación de la electricidad, la electrónica y el electromagnetismo. Aplica conocimientos de ciencias como la física y las matemáticas para diseñar sistemas y equipos que permiten generar, transportar, distribuir y utilizar la energía eléctrica."
+  },
+  {
+    "id": 13,
+    "nombre": "Ingeniería Electrónica",
+    "url_nombre": "ingenieria-electronica",
+    "descripcion": "La Escuela Profesional de Ingeniería Electrónica es una rama de la ingeniería que se encarga de resolver problemas de la ingeniería tales como el control de procesos industriales y de sistemas electrónicos de potencia, instrumentación y control, así como la transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, en las telecomunicaciones, en el diseño y análisis de instrumentación electrónica, microcontroladores y microprocesadores."
+  },
+  {
+    "id": 16,
+    "nombre": "Ingeniería Geográfica",
+    "url_nombre": "ingenieria-geografica",
+    "descripcion": "La Escuela Profesional de Ingeniería Geográfica tiene como objetivo de formación el gestionar el territorio promoviendo su desarrollo sostenible, adquiriendo competencias para integrar las  disciplinas en la dimensión social, ambiental y económica; empleando técnicas de análisis e interpretación, como los Sistemas de Información Geográfica, Instrumentos de Gestión Ambiental y Ordenamiento Territorial."
+  },
+  {
+    "id": 17,
+    "nombre": "Ingeniería Geológica",
+    "url_nombre": "ingenieria-geologica",
+    "descripcion": "La Escuela Profesional de Ingeniería Geológica es una rama del conocimiento dedicada a la comprensión de los fenómenos geológicos actuales y pasados de nuestro planeta que abarca desde su origen, evolución y sus transformaciones por acciones de fuerzas internas y externas, así como la de propender al desarrollo socio económico del país, a través del descubrimiento y posterior explotación racional de nuestros recursos minerales, hidrocarburos, carboníferos y gasíferos y la prevención de desastres naturales y a la conservación del medio ambiente."
+  },
+  {
+    "id": 26,
+    "nombre": "Ingeniería Industrial",
+    "url_nombre": "ingenieria-industrial",
+    "descripcion": "La Escuela Profesional de Ingeniería Industrial es una rama de la Ingeniería enfocada en el diseño de sistemas de producción y en el manejo de los recursos materiales y humanos para la provisión de bienes y servicios necesarios y deseados. Se encarga del análisis, diagnóstico, diseño, implantación, organización y mejora de los sistemas de actividad humana, conformados por un input de personas, maquinarias, insumos, materiales, tecnología, información e integradas en el proceso de transformación o producción cuyo output son los bienes y servicios requeridos por el ambiente externo conformado por los mercados finales y los mercados industriales."
+  },
+  {
+    "id": 31,
+    "nombre": "Ingeniería Mecánica de Fluidos",
+    "url_nombre": "ingenieria-mecanica-de-fluidos",
+    "descripcion": "La Escuela Profesional de Ingeniería de Mecánica de Fluidos es una línea central de la ingeniería moderna y un área altamente activa de investigación. El campo está vinculado a preguntas fundamentales en las ciencias básicas y al mismo tiempo es crucial de innúmeros diseños técnicos, productos y procesos en ingeniería. Su importancia es reconocida en campos como la hidráulica, medios marinos, atmosféricos, ambientales, aerodinámica y tecnología energética."
+  },
+  {
+    "id": 19,
+    "nombre": "Ingeniería Metalúrgica",
+    "url_nombre": "ingenieria-metalurgica",
+    "descripcion": "La Escuela Profesional de Ingeniería Metalúrgica forma profesionales con competencias para desarrollarse en la creación diseño y dirección de procesos y operaciones metalúrgicas, la obtención de metales y no metales utilizables a partir de los minerales; desarrolla las tecnologías de los metales y nuevas aleaciones para usos industriales."
+  },
+  {
+    "id": 23,
+    "nombre": "Ingeniería Química",
+    "url_nombre": "ingenieria-quimica",
+    "descripcion": "La Escuela Profesional de Ingeniería Química tiene como propósito principal contribuir al desarrollo del país mediante la formación de profesionales con competencias y conocimientos sólidos en las áreas de matemáticas, física, química aplicados a los procesos industriales; con capacidad para elaborar, desarrollar y dirigir proyectos de investigación científica y tecnológica, orientados a la solución de problemas de la industria química, considerando aspectos técnicos, sociales y ambientales."
+  },
+  {
+    "id": 25,
+    "nombre": "Ingeniería Textil y Confecciones",
+    "url_nombre": "ingenieria-textil-y-confecciones",
+    "descripcion": "La Escuela Profesional de Ingeniería Textil y Confecciones se ocupa de planificar, organizar, elaborar proyectos, gestionar e innovar las pequeñas, medianas y grandes empresas destinadas a la industrialización y procesamiento de fibras, hilados, tejidos y no tejidos en todas sus ramas. Aporta soluciones a la problemática de la industrialización y el impacto en el medio ambiente. Hoy en día la industria textil y confecciones genera gran cantidad de empleos directos e indirectos y tiene un peso importante en la economía mundial."
+  },
+  {
+    "id": 35,
+    "nombre": "Investigación Operativa",
+    "url_nombre": "investigacion-operativa",
+    "descripcion": "La Escuela Profesional de Investigación Operativa  forma profesionales con la capacidad de analizar los problemas de gestión, planificación y control en organizaciones y otras entidades a las que identifica como sistemas. En la solución de problemas utiliza el método científico y el enfoque de sistemas, así como modelos matemáticos y funcionales, métodos computacionales propios y herramientas de software para apoyar en el proceso de toma de decisiones."
+  },
+  {
+    "id": 61,
+    "nombre": "Lingüística",
+    "url_nombre": "linguistica",
+    "descripcion": "La carrera de Lingüística forma profesionales en la investigación teórica y aplicada de las lenguas naturales. Se desarrolla el estudio descriptivo y explicativo de los fenómenos lingüísticos en los diversos componentes de la gramática. Se contribuye en la resolución de los desafíos que se derivan de la comunicación, educación, reafirmación de las identidades en una realidad multilingüe y pluricultural, entre otros."
+  },
+  {
+    "id": 62,
+    "nombre": "Literatura",
+    "url_nombre": "literatura",
+    "descripcion": "La Escuela Profesional de Literatura forma profesionales que dan cuenta de las características del proceso de desarrollo de la literatura peruana y  latinoamericana, describen, explican e interpretan textos literarios y trascienden el discurso literario para describir sistematizar y evaluar los criterios de producción y recepción textuales."
+  },
+  {
+    "id": 73,
+    "nombre": "Marketing",
+    "url_nombre": "marketing",
+    "descripcion": "El marketing es una función crucial para las empresas, ya que les permite destacar su propuesta de valor, realizar intercambios comerciales y satisfacer las necesidades del mercado. Su papel principal radica en mejorar el conocimiento de los productos y servicios, adaptándolos a las expectativas del público. Sin marketing, una empresa no podría sobrevivir, ya que es un impulsor fundamental de su éxito y existencia. El análisis de la demanda laboral en Lima Metropolitana destaca la constante necesidad de profesionales en marketing, tanto en el sector privado como en el público. Las carreras de marketing se sitúan en el quinto y sexto lugar de las más demandadas, y aproximadamente el 65% de las convocatorias laborales son para esta área en la región. Esta situación subraya la importancia de formar expertos en marketing que puedan satisfacer las necesidades del mercado y dirigir eficientemente las estrategias de comunicación e imagen de las instituciones públicas. Por tanto, existe una clara necesidad de que la UNMSM establezca una carrera de pregrado en marketing para cubrir esta demanda creciente y ofrecer oportunidades de educación universitaria a los jóvenes interesados en esta área."
+  },
+  {
+    "id": 36,
+    "nombre": "Matemática",
+    "url_nombre": "matematica",
+    "descripcion": "La Escuela Profesional de Matemática forma profesionales con visión global, perfil internacional y capacidad emprendedora que dominan las matemáticas, las ciencias de la computación, los modelos matemáticos, la infraestructura y la gestión de las tecnologías de la información, capaces de producir soluciones y mejoras en los ámbitos tecnológicos empresarial y científico de las organizaciones. "
+  },
+  {
+    "id": 2,
+    "nombre": "Medicina Humana",
+    "url_nombre": "medicina-humana",
+    "descripcion": "La Escuela Profesional de Medicina Humana forma médicos generales para desarrollar acciones integrales de protección, promoción, mantenimiento y recuperación de la salud, contando con las competencias para diagnosticar y tratar los problemas de salud, realizando el tratamiento inicial de los casos complicados, con responsabilidad social. Además, busca contribuir en la formación de líderes del equipo de salud, con sensibilidad social y profesionalismo, que le hará acreedor de la confianza y respeto de los pacientes y la sociedad."
+  },
+  {
+    "id": 66,
+    "nombre": "Medicina Veterinaria",
+    "url_nombre": "medicina-veterinaria",
+    "descripcion": "La Escuela Profesional de Medicina Veterinaria tiene la misión de gestionar la formación integral de estudiantes en Medicina Veterinaria con un currículo pertinente, con docentes calificados, vinculando la investigación, proyección y extensión en la formación de profesionales para que sean líderes en Ciencias Veterinarias que contribuyan al desarrollo de la sociedad."
+  },
+  {
+    "id": 34,
+    "nombre": "Microbiología y Parasitología",
+    "url_nombre": "microbiologia-y-parasitologia",
+    "descripcion": "La Escuela Profesional de Microbiología y Parasitología tiene como eje fundamental el conocimiento integral de los microorganismos y parásitos para interpretar las interacciones de ellos con su entorno, la participación en los procesos evolutivos y la solución a los problemas que afectan diversos ecosistemas."
+  },
+  {
+    "id": 5,
+    "nombre": "Nutrición",
+    "url_nombre": "nutricion",
+    "descripcion": "La Escuela Profesional de Nutrición forma profesionales con actitud científica, humanística, crítica y analítica; prospectivo, con compromiso social y capacidad de liderazgo que aplica la ciencia de la alimentación y nutrición en el individuo, familia y comunidad con una perspectiva transdisciplinar comprometidos con el medio ambiente para promover el desarrollo socioeconómico del país."
+  },
+  {
+    "id": 4,
+    "nombre": "Obstetricia",
+    "url_nombre": "obstetricia",
+    "descripcion": "La Escuela Profesional de Obstetricia tiene como uno de sus objetivos generales formar profesionales obstetras con excelencia académica, integral, competente y competitiva, basada en los enfoques de derechos, género e interculturalidad en salud sexual y reproductiva, con práctica de valores protectores de la vida humana y la dignidad de las personas como fin supremo. "
+  },
+  {
+    "id": 9,
+    "nombre": "Odontología",
+    "url_nombre": "odontologia",
+    "descripcion": "La Escuela Profesional de Odontología es un referente nacional en procesos educativos en el campo de la práctica estomatológica, cuyos egresados se identifican por poseer una sólida formación social, ética y científica que genera impacto en la sociedad en el campo de la salud."
+  },
+  {
+    "id": 71,
+    "nombre": "Presupuesto y Finanzas Públicas",
+    "url_nombre": "presupuesto-y-finanzas-publicas",
+    "descripcion": "La Escuela Profesional de Presupuesto y Finanzas Públicas tiene como misión formar profesionales con ética, transparencia, responsabilidad y competencia en investigación científica y tecnológica relacionados en temas de contabilidad, presupuesto, finanzas públicas, toma de decisiones y control de gestión, fortaleciendo su compromiso con el desarrollo económico, financiero y social del sector público."
+  },
+  {
+    "id": 10,
+    "nombre": "Psicología",
+    "url_nombre": "psicologia",
+    "descripcion": "La Escuela Profesional de Psicología tiene la misión de formar psicólogos con sólida preparación científica, humanística y tecnológica, comprometidos deontológicamente con la promoción, prevención e intervención en la salud psicológica e integral del ser humano, sustentada en la investigación en respuesta a las necesidades y expectativas de la sociedad, para el desarrollo sostenible del país. "
+  },
+  {
+    "id": 11,
+    "nombre": "Psicología Organizacional y de la Gestión Humana",
+    "url_nombre": "psicologia-organizacional-y-de-la-gestion-humana",
+    "descripcion": "La Escuela Profesional de Psicología Organizacional y de la Gestión Humana tiene la misión de formar psicólogos líderes, competitivos, creativos, innovadores, críticos y analíticos con competencias para encarar los problemas humanos de las organizaciones y la gestión efectiva del talento humano, con el fin de contribuir al mejoramiento de la calidad de vida laboral, social y organizacional y que posean competencias para generar emprendimientos aún en escenarios inciertos."
+  },
+  {
+    "id": 22,
+    "nombre": "Química",
+    "url_nombre": "quimica",
+    "descripcion": "La Escuela Profesional de Química tiene como propósito principal contribuir al desarrollo del país, mediante la formación de profesionales con competencias y conocimientos sólidos en las áreas de química, física, bioquímica y ciencias de materiales, aplicados a las ciencias básicas, las ciencias de la vida y a los procesos industriales; con capacidad para generar conocimientos, elaborar, desarrollar y dirigir proyectos de investigación científica y tecnológica, gestionar laboratorios de análisis y desarrollo, orientados a la solución de problemas que contribuyan al desarrollo y bienestar de la sociedad, considerando aspectos técnicos, sociales y ambientales. "
+  },
+  {
+    "id": 54,
+    "nombre": "Sociología",
+    "url_nombre": "sociologia",
+    "descripcion": "La Escuela Profesional de Sociología busca fundamentalmente entrenar y forjar investigadores sociales de manera integral y con capacidad de desenvolverse en el ejercicio complejo de conocimiento de la realidad social, desde un abordaje creativo y sustentado en la imaginación, necesario en un contexto como el Perú́ y en una época de transición como la actual."
+  },
+  {
+    "id": 3,
+    "nombre": "Tecnología Médica",
+    "url_nombre": "tecnologia-medica",
+    "descripcion": "La Escuela Profesional de Tecnología Médica tiene como propósito formar tecnólogos médicos que respondan a las demandas de salud de la población y a las transformaciones sociales de un mundo globalizado, en un proceso de aprendizaje centrado en la persona y su contexto, para contribuir en el diagnóstico, pronóstico y tratamiento de las afecciones más frecuentes de nuestro medio, con fines de prevención de las enfermedades, promoción y recuperación de la salud, y rehabilitación de la persona con discapacidad."
+  },
+  {
+    "id": 8,
+    "nombre": "Toxicología",
+    "url_nombre": "toxicologia",
+    "descripcion": "La toxicología es una área de la carrera dinámica, que se está expandiendo y adaptando a los cambios de la sociedad y las nuevas demandas tienen que ser satisfechas. Porque de manera directa o indirecta, el ser humano es responsable sustancial de muchos de los problemas de intoxicaciones alimentarias, ocupacionales, industriales, medicamentosas, ambientales y sociales, de modo que existe un escenario de conflictos, para los que el experto en Toxicología debe estar preparado con una serie de herramientas y vías de solución."
+  },
+  {
+    "id": 55,
+    "nombre": "Trabajo Social",
+    "url_nombre": "trabajo-social",
+    "descripcion": "La Escuela Profesional de Trabajo Social tiene como misión formar trabajadoras y trabajadores sociales de alto nivel científico, tecnológico y humanístico conocedores de la realidad social, nacional e internacional e identificada con las necesidades y del desarrollo del país. Capaces de investigar la realidad social objeto de su intervención profesional, analizar, diseñar y ejecutar políticas, programas y proyectos sociales; críticos, proactivos, solidarios y con respeto a los derechos humanos y justicia social."
+  },
+  {
+    "id": 101,
+    "nombre": "Ciencias de la Narrativa Interactiva",
+    "url_nombre": "ciencias-de-la-narrativa-interactiva",
+    "descripcion": "Este programa forma expertos en la creación de narrativas interactivas para videojuegos, realidad aumentada, y entornos virtuales. Los estudiantes desarrollan habilidades en diseño de historias no lineales, interactividad y tecnología para aplicaciones de entretenimiento y educación."
+  },
+  {
+    "id": 102,
+    "nombre": "Gestión de Ecosistemas Urbanos",
+    "url_nombre": "gestion-de-ecosistemas-urbanos",
+    "descripcion": "Esta carrera forma especialistas en la creación y gestión de espacios urbanos sostenibles que integren ecología, diseño urbano y participación ciudadana. Los egresados están capacitados para desarrollar ciudades verdes y resilientes."
+  },
+  {
+    "id": 103,
+    "nombre": "Tecnología de Alimentos Personalizados",
+    "url_nombre": "tecnologia-de-alimentos-personalizados",
+    "descripcion": "Este programa capacita profesionales en el desarrollo de alimentos personalizados mediante biotecnología, inteligencia artificial y análisis nutricional, diseñados para satisfacer las necesidades individuales de los consumidores."
+  },
+  {
+    "id": 104,
+    "nombre": "Diseño de Experiencias Multisensoriales",
+    "url_nombre": "diseno-de-experiencias-multisensoriales",
+    "descripcion": "Un programa único que integra arte, tecnología y neurociencia para crear experiencias que involucren todos los sentidos en sectores como entretenimiento, turismo y marketing."
+  },
+  {
+    "id": 105,
+    "nombre": "Biomimética Aplicada",
+    "url_nombre": "biomimetica-aplicada",
+    "descripcion": "La biomimética aplicada forma profesionales que diseñan soluciones innovadoras inspiradas en la naturaleza para problemas de ingeniería, diseño y sostenibilidad."
+  },
+  {
+    "id": 106,
+    "nombre": "Ingeniería de Paisajes Sonoros",
+    "url_nombre": "ingenieria-de-paisajes-sonoros",
+    "descripcion": "Este programa prepara expertos en la creación y gestión de entornos acústicos, combinando ingeniería, música y tecnología para diseñar paisajes sonoros en espacios urbanos, naturales y digitales."
+  },
+  {
+    "id": 107,
+    "nombre": "Gestión de Crisis Climáticas",
+    "url_nombre": "gestion-de-crisis-climaticas",
+    "descripcion": "Formación especializada para profesionales capaces de liderar iniciativas que mitiguen y gestionen los impactos de desastres naturales y cambios climáticos globales."
+  },
+  {
+    "id": 108,
+    "nombre": "Antropología Digital",
+    "url_nombre": "antropologia-digital",
+    "descripcion": "Explora cómo las tecnologías digitales transforman la cultura, las sociedades y las relaciones humanas. Integra investigación social y análisis tecnológico."
+  },
+  {
+    "id": 109,
+    "nombre": "Bioética y Derechos Humanos",
+    "url_nombre": "bioetica-y-derechos-humanos",
+    "descripcion": "Este programa aborda los dilemas éticos contemporáneos en biotecnología, medicina y derechos humanos, capacitando a los estudiantes para encontrar soluciones responsables y humanísticas."
+  },
+  {
+    "id": 110,
+    "nombre": "Ciencias de la Inteligencia Artificial y Ética",
+    "url_nombre": "ciencias-de-la-inteligencia-artificial-y-etica",
+    "descripcion": "Un programa interdisciplinario que combina ingeniería de inteligencia artificial con estudios éticos y humanísticos para el diseño responsable de tecnologías autónomas."
+  },
+  {
+    "id": 111,
+    "nombre": "Diseño de Espacios Virtuales",
+    "url_nombre": "diseno-de-espacios-virtuales",
+    "descripcion": "Este programa forma profesionales en la creación de mundos virtuales y entornos inmersivos para aplicaciones en entretenimiento, educación y simulaciones profesionales."
+  },
+  {
+    "id": 112,
+    "nombre": "Ingeniería de Cultivos Verticales",
+    "url_nombre": "ingenieria-de-cultivos-verticales",
+    "descripcion": "La carrera forma especialistas en el diseño y gestión de sistemas agrícolas verticales que optimicen espacio y recursos para la producción sostenible de alimentos en áreas urbanas."
+  },
+  {
+    "id": 113,
+    "nombre": "Psicología del Comportamiento Animal",
+    "url_nombre": "psicologia-del-comportamiento-animal",
+    "descripcion": "Programa único en su tipo que estudia la conducta animal desde perspectivas biológicas, psicológicas y sociales para mejorar el bienestar animal y humano."
+  },
+  {
+    "id": 114,
+    "nombre": "Ciencias de la Economía Circular",
+    "url_nombre": "ciencias-de-la-economia-circular",
+    "descripcion": "Forma expertos en diseñar modelos económicos que reduzcan residuos, optimicen recursos y promuevan la sostenibilidad global mediante la implementación de economías circulares."
+  },
+  {
+    "id": 115,
+    "nombre": "Tecnologías de Restauración de Ecosistemas",
+    "url_nombre": "tecnologias-de-restauracion-de-ecosistemas",
+    "descripcion": "Este programa capacita profesionales para desarrollar y aplicar tecnologías avanzadas en la restauración y conservación de ecosistemas degradados."
+  },
+  {
+    "id": 116,
+    "nombre": "Ingeniería de Robótica Blanda",
+    "url_nombre": "ingenieria-de-robotica-blanda",
+    "descripcion": "Un programa especializado en el diseño y desarrollo de robots blandos inspirados en estructuras biológicas, aplicados en medicina, exploración y manufactura avanzada."
+  },
+  {
+    "id": 117,
+    "nombre": "Historia y Gestión del Patrimonio Intangible",
+    "url_nombre": "historia-y-gestion-del-patrimonio-intangible",
+    "descripcion": "Este programa combina estudios históricos y gestión cultural para preservar y promover tradiciones, conocimientos y expresiones culturales intangibles."
+  },
+  {
+    "id": 118,
+    "nombre": "Ciencias de la Luz y su Aplicación",
+    "url_nombre": "ciencias-de-la-luz-y-su-aplicacion",
+    "descripcion": "Una carrera interdisciplinaria que explora el uso de la luz en comunicaciones, energía, salud y arte, aplicando principios de la óptica y la fotónica."
+  },
+  {
+    "id": 119,
+    "nombre": "Ingeniería de Materiales Inteligentes",
+    "url_nombre": "ingenieria-de-materiales-inteligentes",
+    "descripcion": "La carrera forma especialistas en el diseño y desarrollo de materiales avanzados con propiedades inteligentes para aplicaciones en la industria y la salud."
+  },
+  {
+    "id": 120,
+    "nombre": "Tecnología de Transporte Autónomo",
+    "url_nombre": "tecnologia-de-transporte-autonomo",
+    "descripcion": "Este programa capacita a profesionales en el diseño, desarrollo y gestión de tecnologías para vehículos autónomos terrestres, aéreos y marítimos."
+  },
+  {
+    "id": 121,
+    "nombre": "Sociología de los Espacios Digitales",
+    "url_nombre": "sociologia-de-los-espacios-digitales",
+    "descripcion": "Este programa explora las dinámicas sociales y culturales de los entornos digitales, analizando cómo las tecnologías influyen en las relaciones humanas y las comunidades."
+  },
+  {
+    "id": 122,
+    "nombre": "Ciencias de la Percepción Humana",
+    "url_nombre": "ciencias-de-la-percepcion-humana",
+    "descripcion": "Una carrera interdisciplinaria que estudia cómo los humanos procesan y reaccionan ante estímulos sensoriales, aplicando principios psicológicos, neurológicos y artísticos."
+  },
+  {
+    "id": 123,
+    "nombre": "Tecnologías de Comunicación Interespacial",
+    "url_nombre": "tecnologias-de-comunicacion-interespacial",
+    "descripcion": "Este programa prepara especialistas en el diseño de tecnologías avanzadas para la comunicación y transmisión de datos en entornos espaciales y planetarios."
+  },
+  {
+    "id": 124,
+    "nombre": "Innovación en Moda Sustentable",
+    "url_nombre": "innovacion-en-moda-sustentable",
+    "descripcion": "Una carrera que integra diseño, sostenibilidad y tecnología para transformar la industria de la moda hacia prácticas responsables y éticas."
+  },
+  {
+    "id": 125,
+    "nombre": "Educación en Realidad Aumentada",
+    "url_nombre": "educacion-en-realidad-aumentada",
+    "descripcion": "La carrera forma expertos en el diseño y uso de tecnologías de realidad aumentada para revolucionar la educación y el aprendizaje interactivo."
+  },
+  {
+    "id": 126,
+    "nombre": "Gestión de Arte Digital y Multimedia",
+    "url_nombre": "gestion-de-arte-digital-y-multimedia",
+    "descripcion": "La Escuela Profesional de Gestión de Arte Digital y Multimedia tiene como objetivo formar profesionales capaces de crear, gestionar y promover proyectos artísticos y culturales mediante el uso de tecnologías digitales. Los estudiantes desarrollan competencias en la integración de las artes visuales, el diseño digital, la animación y la gestión de contenidos multimedia, preparándolos para innovar en las industrias culturales y creativas."
+  },
+  {
+    "id": 127,
+    "nombre": "Arquitectura Bioclimática y Sostenibilidad",
+    "url_nombre": "arquitectura-bioclimatica-y-sostenibilidad",
+    "descripcion": "La Escuela Profesional de Arquitectura Bioclimática y Sostenibilidad forma profesionales capaces de diseñar espacios que respeten y aprovechen los recursos naturales de su entorno. Su enfoque está en la creación de estructuras que integren soluciones sostenibles, energéticamente eficientes y en armonía con el medio ambiente, para un futuro más verde y saludable."
+  },
+  {
+    "id": 128,
+    "nombre": "Antropología Digital y Realidades Virtuales",
+    "url_nombre": "antropologia-digital-y-realidades-virtuales",
+    "descripcion": "La Escuela Profesional de Antropología Digital y Realidades Virtuales busca formar profesionales capaces de investigar y analizar las culturas contemporáneas a través del uso de tecnologías digitales y plataformas de realidad virtual. Se enfoca en la comprensión de las transformaciones sociales y culturales mediante herramientas tecnológicas avanzadas, creando nuevas formas de interacción y conocimiento antropológico."
+  },
+  {
+    "id": 129,
+    "nombre": "Ciberseguridad y Ética del Hackeo",
+    "url_nombre": "ciberseguridad-y-etica-del-hackeo",
+    "descripcion": "La Escuela Profesional de Ciberseguridad y Ética del Hackeo forma expertos en la protección de sistemas digitales y en la gestión ética de la seguridad informática. Los estudiantes aprenden a detectar vulnerabilidades, prevenir ciberataques y promover el uso responsable y ético de las técnicas de hacking para proteger la privacidad y los datos de los usuarios en un mundo digital cada vez más interconectado."
+  },
+  {
+    "id": 130,
+    "nombre": "Neurociencia del Comportamiento y Marketing Cognitivo",
+    "url_nombre": "neurociencia-del-comportamiento-y-marketing-cognitivo",
+    "descripcion": "La Escuela Profesional de Neurociencia del Comportamiento y Marketing Cognitivo se dedica a la formación de expertos que comprenden cómo los procesos cerebrales y emocionales afectan el comportamiento de los consumidores. Los estudiantes desarrollan habilidades en el uso de la neurociencia para crear estrategias de marketing efectivas, explorando la relación entre el cerebro humano y la toma de decisiones en el mercado."
+  }
+]
