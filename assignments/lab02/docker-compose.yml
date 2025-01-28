@@ -1,0 +1,8 @@
+services:
+  data:
+    build:
+      context: ./data
+      dockerfile: ./Dockerfile
+    ports:
+      - 5432:5432
+    command: ["postgres", "-c", "log_statement=all"]
