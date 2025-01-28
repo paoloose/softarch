@@ -10,13 +10,10 @@ async function main() {
         .get('/api/careers', getAllCareersController)
         .get('/api/careers/count/', countStudentsByCareerController)
         .get('/api/students/bycareer/', ({ query }) => listStudentsByCareerWithFilterController(query))
-        .get('/api/', function* () {
-            yield 'Hello'
-            yield 'World'
-        })
-        .ws('/realtime', {
-            message(ws, message) {
-                ws.send('got:' + message)
+        .onError(({ code, error, set, path }) => {
+            if (code === 'NOT_FOUND') {
+                set.status = 404;
+                console.log(`Path ${path} not found: ${error.message}`);
             }
         })
         .listen(3000)
