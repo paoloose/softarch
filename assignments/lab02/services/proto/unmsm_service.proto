@@ -1,0 +1,71 @@
+syntax = "proto3";
+package unmsm_service;
+
+import "google/protobuf/empty.proto";
+
+service Students {
+  rpc GetAllCareers (google.protobuf.Empty) returns (GetAllCareersResponse);
+
+  rpc CountStudentsByCareer (google.protobuf.Empty) returns (CountStudentsByCareerResponse);
+
+  // i. Listar los alumnos por cada Carrera Profesional (por id)
+  rpc ListStudentsByCareer (ListStudentsByCareerRequest) returns (ListStudentsByCareerResponse);
+
+  // ii. Listar alumnos por carrera profesional con filtros específicos
+  rpc ListFilteredStudents (ListFilteredStudentsRequest) returns (ListFilteredStudentsResponse);
+}
+
+// Request for listar alumnos by carrera profesional
+message ListStudentsByCareerRequest {
+  int64 career_id = 1; // ID of the Carrera Profesional
+}
+
+// Response for listar alumnos by carrera profesional
+message ListStudentsByCareerResponse {
+  repeated Student students = 1; // List of alumnos
+}
+
+// Request for listar alumnos by carrera profesional with filters
+message ListFilteredStudentsRequest {
+  string exclude_fav_color = 2; // Excluded favorite color
+  string start_date = 3;        // Specific date (YYYY-MM-DD format)
+  int32  min_age = 4;           // Minimum age
+  int32  max_age = 5;           // Maximum age
+}
+
+// Response for listar alumnos by carrera profesional with filters
+message ListFilteredStudentsResponse {
+  repeated Student students = 1; // List of filtered alumnos
+}
+
+// Response for listar carreras profesionales
+message GetAllCareersResponse {
+  repeated Career careers = 1; // List of careers
+}
+
+message CountStudentsByCareerResponse {
+  map<int64, int32> career_student_count = 1; // Map of career_id and student count
+}
+
+// Student message
+message Student {
+  string student_code = 1;   // Codigo_alumno
+  string surname = 2;        // AP
+  string name = 3;           // Nom
+  int32  age = 4;            // edad
+  string gender = 5;         // sexo
+  float  weight = 6;         // peso
+  int32  height = 7;         // talla
+  string favorite_color = 8; // color
+  string province = 9;       // prov
+  int64  career_id = 10;     // cod_cp
+  string enroll_date = 11;    // fecha_ingreso_U
+}
+
+message Career {
+  int64 id = 1; // codigoCP
+  string name = 2; // nomCP
+  string creation_date = 3; // Fecha_creacion
+  string observations = 4; // observaciones
+}
+

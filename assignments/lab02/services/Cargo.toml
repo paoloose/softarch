@@ -1,0 +1,21 @@
+[package]
+name = "services"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread"] }
+sqlx = { version = "0.8.2", features = [
+    "runtime-tokio",
+    "postgres",
+    "bigdecimal",
+    "time",
+] }
+prost = "0.13.4"
+tonic = "0.12.3"
+dotenvy = "0.15.7"
+bigdecimal = "0.4.7"
+time = { version = "0.3.37", features = ["macros"] }
+
+[build-dependencies]
+tonic-build = "*"
