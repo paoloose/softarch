@@ -2,6 +2,7 @@
   "name": "lab02",
   "type": "module",
   "scripts": {
+    "start": "bun src/main.ts",
     "dev": "bun --watch src/main.ts",
     "grpc-generate": "grpc_tools_node_protoc --js_out=import_style=commonjs,binary:./src/generated/ --grpc_out=grpc_js:./src/generated/ --proto_path ./../services/proto unmsm_service.proto",
     "postgrpc-generate": "grpc_tools_node_protoc --plugin=protoc-gen-ts=./node_modules/.bin/protoc-gen-ts --ts_out=grpc_js:./src/generated/ --proto_path ./../services/proto unmsm_service.proto"

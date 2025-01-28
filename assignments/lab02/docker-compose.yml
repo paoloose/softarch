@@ -1,8 +1,45 @@
 services:
+  presentation: # Nginx service
+    build:
+      context: ./presentation
+      dockerfile: ./Dockerfile
+      args:
+        - DOMAIN_NAME=api.paoloose.site
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /home/paoloose/www/burrito:/var/www/burrito:rw
+    depends_on:
+      - business
+    restart: always
+
+  business:
+    build:
+      context: ./services
+      dockerfile: ./Dockerfile
+    expose:
+      - 3000
+    depends_on:
+      - services
+    restart: always
+
+  services:
+    build:
+      context: ./services
+      dockerfile: ./Dockerfile
+    expose:
+      - 50051
+    depends_on:
+      - data
+    restart: always
+
   data:
     build:
       context: ./data
       dockerfile: ./Dockerfile
-    ports:
-      - 5432:5432
+    expose:
+      - 5432
     command: ["postgres", "-c", "log_statement=all"]
+    restart: always
