@@ -11,3 +11,9 @@ Generate the grpc client stubs
 ```bash
 npm run grpc-generate
 ```
+
+Run the server
+
+```bash
+npm run dev
+```
