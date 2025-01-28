@@ -99,13 +99,37 @@ export type TokenKind =
 
 export type Token = TokenKind & { span: [start: number, end: number] };
 
-/* Project 2 */
+/* lab02 */
 
-export type RecordInformation = {
-  id: string, // vennbase uuid
-  mimetype: string,
-  tags: string[],
+export type StudentInformation = {
+  studentCode: string,
+  surname: string,
+  name: string,
+  age: number,
+  gender: string,
+  weight: number,
+  height: number,
+  favoriteColor: string,
+  province: string,
+  careerId: number,
+  enrollDate: string,
 }
+
+export type CareerInformation = {
+  id: number,
+  name: string,
+  creationDate: string,
+  observations: string,
+}
+
+export type CountStudentsByCareerResponse = Array<{
+  career: CareerInformation,
+  count: number,
+}>;
+
+export type CareersResponse = Array<CareerInformation>;
+
+export type StudentsByCareerResponse = Record<string, Array<StudentInformation>>;
 
 export interface QueriedRecordResult {
   id: string;

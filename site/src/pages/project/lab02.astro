@@ -1,6 +1,9 @@
 ---
 import type { ProjectMetadata } from '@types';
 import ProjectLayout from '@layouts/ProjectLayout.astro';
+import Divider from '@components/Divider.astro';
+import CountTable from 'src/assignments/lab02/CountTable';
+import UseCase2 from 'src/assignments/lab02/UseCase2';
 
 export const metadata: ProjectMetadata = {
   title: 'Lab 02: Four Layer Architecture',
@@ -14,7 +17,122 @@ export const metadata: ProjectMetadata = {
   main_id='#four-layer'
   project_code={'lab02'}
 >
+  <Divider />
+  <img src="/softarch/img/4-layer-diagram.png" width="100%" />
+  <Divider />
+  <h3>Requisito #1</h3>
+  <p>
+    i. Listar número de alumnos por cada Carrera Profesional
+  </p>
+
+  <CountTable client:only="react" />
+
+  <Divider />
+
+  <UseCase2  client:only="react" />
 </ProjectLayout>
 
 <style is:global lang="scss">
+
+  h1 {
+    margin-bottom: 2px;
+  }
+
+  code {
+    font-size: 15px;
+    display: none;
+    background-color: #9b9898;
+    border-radius: 4px;
+  }
+
+  table#records-list {
+    scrollbar-gutter: stable;
+    border-collapse: collapse;
+    max-height: 24rem;
+    overflow-y: auto;
+    display: block;
+    border: 1px solid #d0d0d0;
+
+    // this is a thin, modern scrollbar
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #c5c5c5;
+    }
+    &::-webkit-scrollbar:horizontal {
+      height: 5px;
+    }
+  }
+
+  thead {
+    position: sticky;
+    top: 0;
+  }
+
+  tr {
+    height: 34px;
+    &:nth-child(even) {
+      background: #f5f5f5;
+    }
+  }
+
+  th {
+    background: #eee;
+    font-weight: bold;
+    padding: 3px;
+  }
+
+  th, td {
+    padding: 12px;
+  }
+
+  td {
+    &.record-info-career {
+      width: 100%;
+
+      h4 {
+        padding: none;
+        margin: 0;
+      }
+      p {
+        text-wrap: normal;
+        word-wrap: break-word;
+      }
+    }
+    &.record-info-count {
+      min-width: 100px;
+      font-size: 20px;
+    }
+    &.record-info-tags {
+      max-width: 400px;
+      overflow-x: auto;
+      text-overflow: clip;
+      & .record-tag {
+        margin-right: 6px;
+        padding: 2px 4px;
+        background-color: #e9ebf5;
+        font-size: 14px;
+      }
+      &::-webkit-scrollbar:horizontal {
+        height: 3px;
+      }
+    }
+  }
+
+  th {
+    text-align: left;
+    &.record-repr {
+      min-width: 40px;
+    }
+    &.record-info-mimetype {
+      min-width: 100px;
+    }
+    &.record-info-name {
+      width: 100%;
+    }
+  }
 </style>

@@ -1,5 +1,4 @@
-.vscode/
-dist/
-.astro/
-node_modules/
-pnpm-lock.yaml
+/.vscode/
+/dist/
+/.astro/
+/node_modules/
