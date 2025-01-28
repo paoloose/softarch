@@ -63,7 +63,7 @@ function UseCase2() {
     <section>
       <h3>Requisito #2</h3>
       <p>
-        ii. Listar alumnos por carrera profesional cuyos alumnos que
+        Listar alumnos por carrera profesional cuyos alumnos que
         ingresaron después del <span><DatePicker selected={startDate} onChange={(date) => setStartDate(date!)} /></span> y que color favorito no sea&nbsp;
         <span>
           <select value={selectedColor} onChange={(event) => setSelectedColor(event.target.value as keyof typeof colorsMap)}>

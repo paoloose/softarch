@@ -2,7 +2,7 @@
 import type { ProjectMetadata } from '@types';
 import ProjectLayout from '@layouts/ProjectLayout.astro';
 import Divider from '@components/Divider.astro';
-import CountTable from 'src/assignments/lab02/CountTable';
+import UseCase1 from 'src/assignments/lab02/UseCase1';
 import UseCase2 from 'src/assignments/lab02/UseCase2';
 
 export const metadata: ProjectMetadata = {
@@ -18,24 +18,35 @@ export const metadata: ProjectMetadata = {
   project_code={'lab02'}
 >
   <Divider />
-  <img src="/softarch/img/4-layer-diagram.png" width="100%" />
-  <Divider />
-  <h3>Requisito #1</h3>
-  <p>
-    i. Listar número de alumnos por cada Carrera Profesional
+
+  <p style="padding-top: 6px;">
+    Se creó una arquitectura de 4 capas distribuida en 4 niveles (componentes de red) para servir
+    dos casos de uso.
   </p>
 
-  <CountTable client:only="react" />
+  <div style="margin-top: 16px; margin-bottom: 4px;">
+    <img src="/softarch/img/4-layer-diagram.png" width="100%" />
+  </div>
 
-  <Divider />
+  <div style="border: 1px solid rgb(193, 193, 193); padding: 14px; border-radius: 4px;">
+    <UseCase1 client:only="react" />
+  </div>
 
-  <UseCase2  client:only="react" />
+  <br>
+
+  <div style="border: 1px solid rgb(193, 193, 193); padding: 14px; border-radius: 4px;">
+    <UseCase2  client:only="react" />
+  </div>
 </ProjectLayout>
 
 <style is:global lang="scss">
 
   h1 {
     margin-bottom: 2px;
+  }
+
+  h3 {
+    margin-top: 0px;
   }
 
   code {
@@ -105,7 +116,8 @@ export const metadata: ProjectMetadata = {
     }
     &.record-info-count {
       min-width: 100px;
-      font-size: 20px;
+      font-size: 18px;
+      text-align: right;
     }
     &.record-info-tags {
       max-width: 400px;
