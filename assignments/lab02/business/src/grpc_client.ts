@@ -12,7 +12,7 @@ import {
 import { Empty } from 'google-protobuf/google/protobuf/empty_pb';
 
 
-const client = new StudentsClient('localhost:50051', grpc.credentials.createInsecure());
+const client = new StudentsClient('services:50051', grpc.credentials.createInsecure());
 
 // Use case 1
 // i. Listar número de alumnos por cada Carrera Profesional

@@ -9,5 +9,5 @@ docker compose up --build
 And now you can connect to the database
 
 ```bash
-psql 'postgres://user:nopass@localhost/lab02'
+psql 'postgres://user:nopass@data/lab02'
 ```
