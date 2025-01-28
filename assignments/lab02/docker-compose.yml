@@ -17,7 +17,7 @@ services:
 
   business:
     build:
-      context: ./services
+      context: ./business
       dockerfile: ./Dockerfile
     expose:
       - 3000
