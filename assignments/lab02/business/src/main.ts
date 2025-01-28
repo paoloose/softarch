@@ -25,7 +25,7 @@ async function main() {
         .use(logger({ logIP: true }))
         .get('/api/careers', getAllCareersController)
         .get('/api/careers/count/', countStudentsByCareerController)
-        .get('/api/students/bycareer/', listStudentsByCareerWithFilterController)
+        .get('/api/students/bycareer/', ({ query }) => listStudentsByCareerWithFilterController(query))
         .get('/api/', function* () {
             yield 'Hello'
             yield 'World'

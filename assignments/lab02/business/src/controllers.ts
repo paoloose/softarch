@@ -1,4 +1,4 @@
-import type { Career } from './generated/unmsm_service_pb';
+import type { Career, Student } from './generated/unmsm_service_pb';
 import { countStudentsByCareer, getAllCareers, listFilteredStudents, ListFilteredStudentsRequest } from './grpc_client';
 
 export async function getAllCareersController() {
@@ -22,13 +22,27 @@ export async function countStudentsByCareerController() {
     return response;
 }
 
-export async function listStudentsByCareerWithFilterController() {
+export async function listStudentsByCareerWithFilterController(queryParams: Record<string, string | undefined>) {
     const req = new ListFilteredStudentsRequest();
-    req.setExcludeFavColor('Rojo');
-    req.setStartDate('2021-01-01');
-    req.setMinAge(18);
-    req.setMaxAge(25);
+
+    console.log(queryParams)
+
+    req.setExcludeFavColor(queryParams['exclude_fav_color'] ?? 'Rojo');
+    req.setStartDate(queryParams['start_date'] ?? '2021-01-01');
+    req.setMinAge(queryParams['min_age'] ? Number(queryParams['min_age']) : 18);
+    req.setMaxAge(queryParams['max_age'] ? Number(queryParams['max_age']) : 25);
+
+    const byCareerMap: Record<number, Array<Student.AsObject>> = {};
 
     const response = await listFilteredStudents(req);
-    return response.getStudentsList().map((student) => student.toObject());
+    const allStudents = response.getStudentsList().map((student) => student.toObject());
+
+    for (const student of allStudents) {
+        if (!byCareerMap[student.careerId]) {
+            byCareerMap[student.careerId] = [];
+        }
+        byCareerMap[student.careerId].push(student);
+    }
+
+    return byCareerMap;
 }
