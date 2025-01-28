@@ -1,0 +1,85 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT * FROM talumno WHERE fecha_ingreso_u > $1 and color != $2 and edad >= $3 and edad <= $4",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "codigo_alumno",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 1,
+        "name": "ap",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 2,
+        "name": "nom",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 3,
+        "name": "edad",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 4,
+        "name": "sexo",
+        "type_info": "Bpchar"
+      },
+      {
+        "ordinal": 5,
+        "name": "peso",
+        "type_info": "Numeric"
+      },
+      {
+        "ordinal": 6,
+        "name": "talla",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 7,
+        "name": "color",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 8,
+        "name": "prov",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 9,
+        "name": "cod_cp",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 10,
+        "name": "fecha_ingreso_u",
+        "type_info": "Date"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Date",
+        "Text",
+        "Int4",
+        "Int4"
+      ]
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "hash": "e21a2a041fb56bde592c444bea0c11e7b42cceb411eef99b32596d45c062c7e4"
+}

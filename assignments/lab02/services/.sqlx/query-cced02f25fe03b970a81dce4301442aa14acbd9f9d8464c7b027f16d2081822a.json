@@ -1,0 +1,26 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT cod_cp, count(*) FROM talumno GROUP BY cod_cp;",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "cod_cp",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 1,
+        "name": "count",
+        "type_info": "Int8"
+      }
+    ],
+    "parameters": {
+      "Left": []
+    },
+    "nullable": [
+      false,
+      null
+    ]
+  },
+  "hash": "cced02f25fe03b970a81dce4301442aa14acbd9f9d8464c7b027f16d2081822a"
+}
