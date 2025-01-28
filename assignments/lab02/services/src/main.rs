@@ -150,7 +150,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let greeter = StudentsService::new(pool);
 
-    println!("GreeterServer listening on {}", addr);
+    println!("UNMSM service listening on {}", addr);
 
     Server::builder()
         .add_service(StudentsServer::new(greeter))
