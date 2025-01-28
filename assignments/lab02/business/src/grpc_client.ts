@@ -17,6 +17,7 @@ const client = new StudentsClient('services:50051', grpc.credentials.createInsec
 client.waitForReady(10000, (error) => {
     if (error) {
         console.error('Failed to connect to gRPC service at port 50051');
+        console.error(`${error.message} ${error.cause}\n${error.stack}`);
     } else {
         console.log('Connected to gRPC service at port 50051');
     }
