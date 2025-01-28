@@ -25,8 +25,6 @@ export async function countStudentsByCareerController() {
 export async function listStudentsByCareerWithFilterController(queryParams: Record<string, string | undefined>) {
     const req = new ListFilteredStudentsRequest();
 
-    console.log(queryParams)
-
     req.setExcludeFavColor(queryParams['exclude_fav_color'] ?? 'Rojo');
     req.setStartDate(queryParams['start_date'] ?? '2021-01-01');
     req.setMinAge(queryParams['min_age'] ? Number(queryParams['min_age']) : 18);
