@@ -14,6 +14,14 @@ import { Empty } from 'google-protobuf/google/protobuf/empty_pb';
 
 const client = new StudentsClient('services:50051', grpc.credentials.createInsecure());
 
+client.waitForReady(10000, (error) => {
+    if (error) {
+        console.error('Failed to connect to gRPC service at port 50051');
+    } else {
+        console.log('Connected to gRPC service at port 50051');
+    }
+});
+
 // Use case 1
 // i. Listar número de alumnos por cada Carrera Profesional
 function countStudentsByCareer() {
