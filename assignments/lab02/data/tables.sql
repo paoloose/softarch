@@ -25,21 +25,21 @@ TCarreraProfesional(
 
 CREATE TABLE TCarreraProfesional(
     codigoCP       BIGSERIAL PRIMARY KEY,
-    nomCP          VARCHAR(256),
-    Fecha_creacion DATE,
-    observaciones  VARCHAR(2048)
+    nomCP          VARCHAR(256) NOT NULL,
+    Fecha_creacion DATE NOT NULL,
+    observaciones  VARCHAR(2048) NOT NULL
 );
 
 CREATE TABLE TAlumno(
     Codigo_alumno   VARCHAR(16) PRIMARY KEY,
-    AP              VARCHAR(256),
-    Nom             VARCHAR(512),
-    edad            INT,
-    sexo            CHAR(1),
-    peso            DECIMAL(5,2),
-    talla           INT, -- centimetros
-    color           VARCHAR(128),
-    prov            VARCHAR(256),
-    cod_cp          BIGINT REFERENCES TCarreraProfesional(codigoCP),
-    fecha_ingreso_U DATE
+    AP              VARCHAR(256) NOT NULL,
+    Nom             VARCHAR(512) NOT NULL,
+    edad            INT NOT NULL,
+    sexo            CHAR(1) NOT NULL,
+    peso            DECIMAL(5,2) NOT NULL,
+    talla           INT NOT NULL, -- centimetro
+    color           VARCHAR(128) NOT NULL,
+    prov            VARCHAR(256) NOT NULL,
+    cod_cp          BIGINT REFERENCES TCarreraProfesional(codigoCP) NOT NULL,
+    fecha_ingreso_U DATE NOT NULL
 );
