@@ -5,49 +5,38 @@ import "google/protobuf/empty.proto";
 
 service Students {
   rpc GetAllCareers (google.protobuf.Empty) returns (GetAllCareersResponse);
-
   rpc CountStudentsByCareer (google.protobuf.Empty) returns (CountStudentsByCareerResponse);
-
-  // i. Listar los alumnos por cada Carrera Profesional (por id)
   rpc ListStudentsByCareer (ListStudentsByCareerRequest) returns (ListStudentsByCareerResponse);
-
-  // ii. Listar alumnos por carrera profesional con filtros específicos
   rpc ListFilteredStudents (ListFilteredStudentsRequest) returns (ListFilteredStudentsResponse);
 }
 
-// Request for listar alumnos by carrera profesional
 message ListStudentsByCareerRequest {
-  int64 career_id = 1; // ID of the Carrera Profesional
+  int64 career_id = 1;
 }
 
-// Response for listar alumnos by carrera profesional
 message ListStudentsByCareerResponse {
-  repeated Student students = 1; // List of alumnos
+  repeated Student students = 1;
 }
 
-// Request for listar alumnos by carrera profesional with filters
 message ListFilteredStudentsRequest {
-  string exclude_fav_color = 2; // Excluded favorite color
-  string start_date = 3;        // Specific date (YYYY-MM-DD format)
-  int32  min_age = 4;           // Minimum age
-  int32  max_age = 5;           // Maximum age
+  string exclude_fav_color = 2;
+  string start_date = 3;
+  int32  min_age = 4;
+  int32  max_age = 5;
 }
 
-// Response for listar alumnos by carrera profesional with filters
 message ListFilteredStudentsResponse {
-  repeated Student students = 1; // List of filtered alumnos
+  repeated Student students = 1;
 }
 
-// Response for listar carreras profesionales
 message GetAllCareersResponse {
-  repeated Career careers = 1; // List of careers
+  repeated Career careers = 1;
 }
 
 message CountStudentsByCareerResponse {
-  map<int64, int32> career_student_count = 1; // Map of career_id and student count
+  map<int64, int32> career_student_count = 1;
 }
 
-// Student message
 message Student {
   string student_code = 1;   // Codigo_alumno
   string surname = 2;        // AP
