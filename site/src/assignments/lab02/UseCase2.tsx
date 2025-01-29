@@ -4,6 +4,7 @@ import { Dropdown } from './Dropdown';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { isEmpty } from 'src/utils';
 
 const colorsMap = {
   'Rojo': "#D46A6A",
@@ -47,20 +48,8 @@ function UseCase2() {
     loading = true;
   }
 
-  if (careersError || studentsError) {
-    console.error(careersError || studentsError);
-    return <p>Ha ocurrido un error</p>;
-  }
-
-  const careers = careersResponse?.data;
-  const studentsByCareerId = studentsResponse?.data;
-
-  if (!careers || !studentsByCareerId) {
-    return <p>Cargando...</p>;
-  }
-
-  return (
-    <section>
+  const header = (
+    <>
       <h3>Requisito #2</h3>
       <p>
         Listar alumnos por carrera profesional cuyos alumnos que
@@ -79,7 +68,38 @@ function UseCase2() {
           <input type="number" style={{ maxWidth: 45 }} value={maxAge} onChange={(event) => setMaxAge(Number(event.target.value))} />
         </span> años.
       </p>
+    </>
+  );
+
+  if (careersError || studentsError) {
+    console.error(careersError || studentsError);
+    return (
+      <>
+        {header}
+        <p>Ha ocurrido un error</p>
+      </>
+    );
+  }
+
+  const careers = careersResponse?.data;
+  const studentsByCareerId = studentsResponse?.data;
+
+  if (!careers || !studentsByCareerId) {
+    return (
+      <>
+        {header}
+        <p>Cargando...</p>
+      </>
+    );
+  }
+
+  return (
+    <section>
+      {header}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 8, filter: loading ? 'brightness(80%)' : 'none' }}>
+        {
+          isEmpty(studentsByCareerId) && <p>No hay resultados</p>
+        }
         {
           Object.entries(studentsByCareerId).map(([careerId, students]) => {
             const career = careers.find((career) => career.id === Number(careerId))!;

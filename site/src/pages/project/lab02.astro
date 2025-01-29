@@ -28,10 +28,6 @@ export const metadata: ProjectMetadata = {
     <img src="/softarch/img/4-layer-diagram.png" width="100%" />
   </div>
 
-  <div style="border: 1px solid rgb(193, 193, 193); padding: 14px; border-radius: 4px;">
-    <UseCase1 client:only="react" />
-  </div>
-
   <br>
 
   <div style="border: 1px solid rgb(193, 193, 193); padding: 14px; border-radius: 4px;">
@@ -63,6 +59,10 @@ export const metadata: ProjectMetadata = {
     overflow-y: auto;
     display: block;
     border: 1px solid #d0d0d0;
+
+    thead, tr {
+      width: 100%;
+    }
 
     // this is a thin, modern scrollbar
     &::-webkit-scrollbar {
